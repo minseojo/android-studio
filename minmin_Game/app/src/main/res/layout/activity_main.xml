@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main_image"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:maxHeight="300dp"
+        android:maxWidth="300dp"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        tools:layout_editor_absoluteY="24dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="35dp"
+            app:srcCompat="@drawable/game"
+            android:backgroundTint="@color/white"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/movie"
+            tools:ignore="MissingConstraints"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="게임" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginLeft="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="영화" />
+    </LinearLayout>
+
+</LinearLayout>

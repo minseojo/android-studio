@@ -1,0 +1,329 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/gameAllBack"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="#3F51B5"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="처음부터"
+            android:textSize="15dp"
+            app:backgroundTint="#3C3F41" />
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="RPG"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#FF9800" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/rpg1"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/rpg2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/rpg3"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/rpg4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="CASUAL"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#00B0FF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/casual1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/casual2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/casual3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/casual4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="FPS"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#CAC7C7" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fps1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fps2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fps3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fps4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="AOS"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#2543AF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/aos1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/aos2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/aos3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/aos4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="SPORTS"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#3CAC41" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sports1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sports2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sports3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sports4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

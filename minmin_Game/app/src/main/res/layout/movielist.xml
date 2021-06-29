@@ -1,0 +1,390 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/movieAllBack"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="#3F51B5"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="처음으로"
+            android:textSize="15dp"
+            app:backgroundTint="#3C3F41" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="ACTION"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#FF9800" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/action1"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/action2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/action3"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/action4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="ROMANCE"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#00B0FF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/romance1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/romance2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/romance3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/romance4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="FEAR"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#CAC7C7" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fear1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fear2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fear3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fear4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="FANTASY"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#2543AF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fantasy1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fantasy2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fantasy3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/fantasy4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="COMEDY"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#3CAC41" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/comedy1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/comedy2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/comedy3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/comedy4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#1C1C1C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="DOCUMENT"
+            android:fontFamily="@font/subfont"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            app:backgroundTint="#673AB7" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/document1" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/document2"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/document3" />
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/document4"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
