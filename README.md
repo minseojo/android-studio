@@ -1,7 +1,12 @@
-Cv
+# Cv
+개인 프로젝트
+나만의 이력서를 앱으로 만들기
 https://www.youtube.com/watch?v=DaLE1WC7t9g
 
 ***
+# MinMIng 게임
+2인 팀 프로젝트
+테스트를 통해 사용자가 좋아할 만한 게임의 장르르 추천해주는 앱
 
 minmin_game: [minmin_Game 보고서.docx](https://github.com/minseojo/Android_Studio/files/7109367/minmin_Game.docx)
 
